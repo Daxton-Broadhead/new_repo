@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000672] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000887] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000909] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000924] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000945] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000965] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.012275] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.013722] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/daxton/ros2_beginning/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/daxton/ros2_beginning/install/tutorial_interfaces'], 'cwd': '/home/daxton/ros2_beginning/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'daxton', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/daxton/ros2_beginning/install/turtlesim/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/daxton', 'OLDPWD': '/home/daxton/ros2_beginning/src/tutorial_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'CONNEXTDDS_DIR': '/opt/rti.com/rti_connext_dds-6.0.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-6.0.1', 'SYSTEMD_EXEC_PID': '3142', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/daxton/ros2_beginning/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'daxton', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'daxton', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:$/tools/Xilinx/2024.2/bin', 'SESSION_MANAGER': 'local/DaxtonPC:@/tmp/.ICE-unix/2564,unix/DaxtonPC:/tmp/.ICE-unix/2564', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b048df5c_2adb_4fb9_980e_7d1ce38d4c04', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H6AD72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.368', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/daxton/ros2_beginning/install/turtlesim:/home/daxton/ros2_beginning/install/my_package:/home/daxton/ros2_beginning/install/cpp_srvcli:/home/daxton/ros2_beginning/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONNEXTDDS_ARCH': 'x64Linux4gcc7.3.0', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daxton/ros2_beginning/build/tutorial_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/daxton/ros2_beginning/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/daxton/ros2_beginning/install/turtlesim:/home/daxton/ros2_beginning/install/my_package:/home/daxton/ros2_beginning/install/cpp_srvcli:/home/daxton/ros2_beginning/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.036620] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099421] (-) TimerEvent: {}
+[0.199856] (-) TimerEvent: {}
+[0.300416] (-) TimerEvent: {}
+[0.353367] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.386166] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.396730] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.400527] (-) TimerEvent: {}
+[0.410851] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.428191] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.478322] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.487495] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.500643] (-) TimerEvent: {}
+[0.601061] (-) TimerEvent: {}
+[0.701425] (-) TimerEvent: {}
+[0.801879] (-) TimerEvent: {}
+[0.902298] (-) TimerEvent: {}
+[0.927613] (tutorial_interfaces) StderrLine: {'line': b"Error parsing '/home/daxton/ros2_beginning/src/tutorial_interfaces/package.xml':\n"}
+[1.002482] (-) TimerEvent: {}
+[1.102876] (-) TimerEvent: {}
+[1.203323] (-) TimerEvent: {}
+[1.303881] (-) TimerEvent: {}
+[1.404394] (-) TimerEvent: {}
+[1.504878] (-) TimerEvent: {}
+[1.605362] (-) TimerEvent: {}
+[1.705802] (-) TimerEvent: {}
+[1.806261] (-) TimerEvent: {}
+[1.906869] (-) TimerEvent: {}
+[2.007746] (-) TimerEvent: {}
+[2.108292] (-) TimerEvent: {}
+[2.208733] (-) TimerEvent: {}
+[2.309276] (-) TimerEvent: {}
+[2.409923] (-) TimerEvent: {}
+[2.510464] (-) TimerEvent: {}
+[2.610943] (-) TimerEvent: {}
+[2.711402] (-) TimerEvent: {}
+[2.811558] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.811799] (-) TimerEvent: {}
+[2.811910] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[2.812165] (tutorial_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[2.812406] (tutorial_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.812561] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString\n'}
+[2.812798] (tutorial_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[2.813034] (tutorial_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.813301] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[2.813447] (tutorial_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[2.813590] (tutorial_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.813728] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[2.813864] (tutorial_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[2.814005] (tutorial_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 12, column 46\n'}
+[2.814224] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[2.814381] (tutorial_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[2.814522] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[2.814674] (tutorial_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[2.814837] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[2.815004] (tutorial_interfaces) StderrLine: {'line': b'    main()\n'}
+[2.815174] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[2.815355] (tutorial_interfaces) StderrLine: {'line': b'    raise e\n'}
+[2.815524] (tutorial_interfaces) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[2.815685] (tutorial_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[2.815847] (tutorial_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[2.816018] (tutorial_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[2.816228] (tutorial_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[2.816408] (tutorial_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/daxton/ros2_beginning/src/tutorial_interfaces/package.xml':\n"}
+[2.816577] (tutorial_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[2.816767] (tutorial_interfaces) StderrLine: {'line': b'mismatched tag: line 12, column 46\n'}
+[2.883028] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[2.883464] (tutorial_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[2.883718] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[2.883884] (tutorial_interfaces) StderrLine: {'line': b'  /home/daxton/ros2_beginning/src/tutorial_interfaces/package.xml\n'}
+[2.884044] (tutorial_interfaces) StderrLine: {'line': b'  /home/daxton/ros2_beginning/build/tutorial_interfaces/ament_cmake_core/package.cmake)\n'}
+[2.884228] (tutorial_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[2.884391] (tutorial_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.884544] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[2.884699] (tutorial_interfaces) StderrLine: {'line': b'  /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[2.884853] (tutorial_interfaces) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[2.885006] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[2.885168] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.885333] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.897223] (tutorial_interfaces) CommandEnded: {'returncode': 1}
+[2.898488] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 1}
+[2.909210] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/daxton/ros2_beginning/build/tutorial_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daxton/ros2_beginning/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/daxton/ros2_beginning/install/tutorial_interfaces
+Invoked command in '/home/daxton/ros2_beginning/build/tutorial_interfaces' returned '-2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daxton/ros2_beginning/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/daxton/ros2_beginning/install/tutorial_interfaces

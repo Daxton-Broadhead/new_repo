@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/daxton/ros2_beginning/src/tutorial_interfaces:msg/Num.msg",
+    "/home/daxton/ros2_beginning/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/daxton/ros2_beginning/src/tutorial_interfaces:srv/AddThreeInts.srv"
+  ]
+}

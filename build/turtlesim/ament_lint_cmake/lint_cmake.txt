@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/daxton/ros2_beginning/src/ros_tutorials/turtlesim':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/daxton/ros2_beginning/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/daxton/ros2_beginning/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml'

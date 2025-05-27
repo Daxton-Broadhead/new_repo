@@ -1,0 +1,8 @@
+/home/daxton/ros2_beginning/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/daxton/ros2_beginning/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/daxton/ros2_beginning/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/daxton/ros2_beginning/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/daxton/ros2_beginning/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/daxton/ros2_beginning/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/daxton/ros2_beginning/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/daxton/ros2_beginning/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

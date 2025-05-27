@@ -1,0 +1,51 @@
+[0.013s] Invoking command in '/home/daxton/ros2_beginning/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daxton/ros2_beginning/src/my_package -DCMAKE_INSTALL_PREFIX=/home/daxton/ros2_beginning/install/my_package
+[0.133s] -- The C compiler identification is GNU 13.3.0
+[0.250s] -- The CXX compiler identification is GNU 13.3.0
+[0.289s] -- Detecting C compiler ABI info
+[0.440s] -- Detecting C compiler ABI info - done
+[0.455s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.457s] -- Detecting C compile features
+[0.457s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.623s] -- Detecting CXX compiler ABI info - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.636s] -- Detecting CXX compile features
+[0.636s] -- Detecting CXX compile features - done
+[0.642s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.862s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.027s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.173s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.173s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/daxton/ros2_beginning/src/my_package/include>
+[1.173s] -- Configured cppcheck exclude dirs and/or files: 
+[1.174s] -- Added test 'lint_cmake' to check CMake code style
+[1.176s] -- Added test 'uncrustify' to check C / C++ code style
+[1.176s] -- Configured uncrustify additional arguments: 
+[1.177s] -- Added test 'xmllint' to check XML markup files
+[1.179s] -- Configuring done (1.2s)
+[1.185s] -- Generating done (0.0s)
+[1.187s] -- Build files have been written to: /home/daxton/ros2_beginning/build/my_package
+[1.197s] Invoked command in '/home/daxton/ros2_beginning/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daxton/ros2_beginning/src/my_package -DCMAKE_INSTALL_PREFIX=/home/daxton/ros2_beginning/install/my_package
+[1.197s] Invoking command in '/home/daxton/ros2_beginning/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daxton/ros2_beginning/build/my_package -- -j12 -l12
+[1.274s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.319s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.386s] [100%] Built target my_node
+[1.403s] Invoked command in '/home/daxton/ros2_beginning/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daxton/ros2_beginning/build/my_package -- -j12 -l12
+[1.404s] Invoking command in '/home/daxton/ros2_beginning/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daxton/ros2_beginning/build/my_package
+[1.421s] -- Install configuration: ""
+[1.421s] -- Installing: /home/daxton/ros2_beginning/install/my_package/lib/my_package/my_node
+[1.421s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.422s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.422s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.423s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.423s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/environment/path.sh
+[1.423s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/environment/path.dsv
+[1.423s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/local_setup.bash
+[1.424s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/local_setup.sh
+[1.424s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/local_setup.zsh
+[1.424s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/local_setup.dsv
+[1.424s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/package.dsv
+[1.424s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.425s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.425s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.425s] -- Installing: /home/daxton/ros2_beginning/install/my_package/share/my_package/package.xml
+[1.427s] Invoked command in '/home/daxton/ros2_beginning/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daxton/ros2_beginning/build/my_package

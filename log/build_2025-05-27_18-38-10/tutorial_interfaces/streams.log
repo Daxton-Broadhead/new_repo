@@ -1,0 +1,53 @@
+[0.016s] Invoking command in '/home/daxton/ros2_beginning/build/tutorial_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daxton/ros2_beginning/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/daxton/ros2_beginning/install/tutorial_interfaces
+[0.036s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.353s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.386s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.478s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.487s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.927s] Error parsing '/home/daxton/ros2_beginning/src/tutorial_interfaces/package.xml':
+[2.811s] Traceback (most recent call last):
+[2.811s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[2.811s]     root = dom.parseString(data)
+[2.812s]            ^^^^^^^^^^^^^^^^^^^^^
+[2.812s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString
+[2.812s]     return expatbuilder.parseString(string)
+[2.812s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.812s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[2.813s]     return builder.parseString(string)
+[2.813s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.813s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[2.813s]     parser.Parse(string, True)
+[2.813s] xml.parsers.expat.ExpatError: mismatched tag: line 12, column 46
+[2.813s] 
+[2.814s] During handling of the above exception, another exception occurred:
+[2.814s] 
+[2.814s] Traceback (most recent call last):
+[2.814s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.814s]     main()
+[2.814s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.815s]     raise e
+[2.815s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.815s]     package = parse_package_string(
+[2.815s]               ^^^^^^^^^^^^^^^^^^^^^
+[2.815s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[2.815s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[2.816s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/daxton/ros2_beginning/src/tutorial_interfaces/package.xml':
+[2.816s] The manifest contains invalid XML:
+[2.816s] mismatched tag: line 12, column 46
+[2.882s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.883s]   execute_process(/usr/bin/python3
+[2.883s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.883s]   /home/daxton/ros2_beginning/src/tutorial_interfaces/package.xml
+[2.883s]   /home/daxton/ros2_beginning/build/tutorial_interfaces/ament_cmake_core/package.cmake)
+[2.883s]   returned error code 1
+[2.884s] Call Stack (most recent call first):
+[2.884s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.884s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[2.884s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[2.884s] 
+[2.884s] [0m
+[2.884s] -- Configuring incomplete, errors occurred!
+[2.897s] Invoked command in '/home/daxton/ros2_beginning/build/tutorial_interfaces' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daxton/ros2_beginning/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/daxton/ros2_beginning/install/tutorial_interfaces

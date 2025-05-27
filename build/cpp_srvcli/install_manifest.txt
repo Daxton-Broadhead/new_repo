@@ -1,0 +1,17 @@
+/home/daxton/ros2_beginning/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/daxton/ros2_beginning/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/daxton/ros2_beginning/install/cpp_srvcli/share/cpp_srvcli/package.xml
