@@ -1,4 +1,4 @@
-# 🧠 Project Name
+#Project name
 
 A brief description of what your project does and why it exists.  
 (Example: "An AI-powered note-taking app that helps you organize ideas effortlessly.")
